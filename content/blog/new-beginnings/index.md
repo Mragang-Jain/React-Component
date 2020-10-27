@@ -1,8 +1,18 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: Components and Props
+date: "2020-10-27"
+description: Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of components
 ---
+
+## Function and Class Components
+
+```js
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>
+}
+```
+
+This function is a valid React component because it accepts a single “props” (which stands for properties) object argument with data and returns a React element. We call such components “function components” because they are literally JavaScript functions.
 
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
